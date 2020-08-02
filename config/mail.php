@@ -88,6 +88,11 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    'to' => [
+        'address' => 'jefferson.caiza@epn.edu.ec',
+        'name' => 'BlogdeEduardo'
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Markdown Mail Settings
